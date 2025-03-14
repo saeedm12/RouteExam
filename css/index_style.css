@@ -1,0 +1,456 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav
+{
+        z-index: 99999;
+}
+.navbar-nav a 
+{
+ color:black;
+ position: relative;
+ overflow: hidden;
+}
+.navbar-nav a span::after
+{
+position: absolute;
+content: "";
+left: 10;
+width: 40px;
+height: 2px;
+background-color:black;
+bottom: 3;
+opacity: 0;
+transition: 0.5s all;
+transform: translateX(-100%);
+}
+.navbar-nav a span:hover::after
+{
+opacity: 1;
+transform: translateX(0%);
+}
+
+
+#home
+{
+background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(../imgs/bg.jpg);
+background-position: center;
+background-size: cover;
+background-attachment: scroll;
+}
+.bar 
+{
+       border-radius: 5px;
+}
+.prog-bar .my-3
+{
+        border-radius: 5px;
+}
+.abt-img
+{
+        position: relative;
+}
+.abt-img::before
+{      
+content: "";
+width: 80%;
+height: 80%;
+position: absolute;
+left: 10px;
+transform: translateX(-10%);
+bottom: -30px;
+background-image: url(../imgs/dots.png);
+background-repeat: repeat;
+z-index: -1;
+}
+main .btn
+{
+        padding:7px 35px;
+}
+.btn.btn1
+{
+        background-color: rgb(34,34,34);
+        color: white;
+}
+.btn.btn1:hover
+{
+background-color: white;
+color: black;
+border: 1px solid black;
+}
+.btn.btn2
+{
+        border: 1px solid black;
+}
+.btn.btn2:hover
+{
+background-color: rgb(34,34,34);
+color: white;
+}
+#services
+{
+        margin-top: 100px;
+        background-color: #F7F7F7;
+        padding: 70px
+}
+
+#services h1 
+{
+        position: relative;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+}
+.serv-caption
+{
+        width: 15%;
+}
+
+#services h1 span::after
+{
+        content: "";
+        width: 100%;
+        height: 10px;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        background-image: url(../imgs/dots.png);
+        background-repeat: repeat;
+        z-index: 1;     
+}
+#services i 
+{
+font-size: 25px;
+padding: 25px;
+background-color: #f7f7f7;
+border-radius: 50%;
+transition: 0.5s;
+}
+#services .shadow
+{
+ background-color: white;
+ margin: 0px 20px;
+ padding: 20px;
+}
+#services .shadow:hover i
+{
+        background-color: black;
+        color: white;
+}
+#services h4
+{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;     
+        margin-top: 10px; 
+}
+#works
+{
+        margin-top: 100px;
+        padding: 70px
+}
+
+#works h1 
+{
+        position: relative;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+}
+.work-caption
+{
+        width: 15%;
+}
+.nav-tabs 
+{
+  border-style: none;  
+}
+.nav-tabs .nav-link
+{
+ margin-bottom: 0px;
+border: 0px;
+border-top-left-radius: 0px;
+border-top-right-radius:0px;
+position: relative;
+transition: none;
+}
+.nav-tabs .nav-link span
+{
+        color: #222;
+        font-weight: 700;
+        font-size: 16px;
+}
+.nav-tabs .nav-link span::after
+{
+        position: absolute;
+        content: "";
+        left: 0;
+        width: 0%;
+        height: 2px;
+        transition: 0.5s all;
+        background-color:black;
+        bottom: 3;      
+}
+.nav-link span:hover::after
+{
+  border:0px none transparent; 
+  margin-bottom: 0px; 
+  width: 100%;  
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active
+{
+border-color: transparent;
+}
+#works h1 span::after
+{
+        content: "";
+        width: 100%;
+        height: 10px;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        background-image: url(../imgs/dots.png);
+        background-repeat: repeat;
+        z-index: 1;     
+}
+#works img
+{
+width: 100%;
+}
+#works .position-relative
+{
+        width: 100%;
+}
+.work-img-caption
+{
+background-color: rgba(255,255,255,0.9);
+height: 98%;
+width: 98%;
+transform: translateY(2%);
+opacity: 0;
+transition: all 0.5s;
+}
+.work-img-caption h5
+{
+transform: translateY(-100%);
+transition: all 0.5s;
+}
+.work-img-caption div
+{
+        transform: translateY(100%);
+        transition: all 0.5s;
+}
+.work-img:hover .work-img-caption h5
+{
+        transform: translateY(0%);
+}
+.work-img:hover .work-img-caption div
+{
+        transform: translateY(0%);
+}
+.work-img:hover .work-img-caption
+{
+opacity: 1;
+transform: translateY(0%);
+}
+.fit-content
+{
+        width: fit-content;
+}
+#works i 
+{
+font-size: 10px;
+padding: 10px;
+background-color: black;
+color: white;
+border-radius: 50%;
+transition: 0.2s;
+}
+#works i:hover
+{
+        color: black;
+        background-color: white;
+}
+#clients
+{
+       background-color: #F7F7F7;
+       padding: 70px;
+}
+#clients h1 
+{
+        position: relative;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+}
+
+#clients h1 span::after
+{
+        content: "";
+        width: 100%;
+        height: 10px;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        background-image: url(../imgs/dots.png);
+        background-repeat: repeat;
+        z-index: 1;     
+}
+.max-width
+{
+max-width: 800px;
+}
+.carousel-indicators [data-bs-target] 
+{
+        width: 20px;
+        height: 1px;
+        margin: 5px 7px;
+        background: #d6d6d6;
+        display: block;
+        transition: opacity 0.2s ease;
+        border-radius: 30px;       
+}
+.icon-section i 
+{
+        font-size: 35px;
+        margin: 10px;
+}
+#team
+{
+        padding: 70px;
+        background-color: #F7F7F7;
+}
+
+#team h1 
+{
+        position: relative;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+}
+#team h1 span::after
+{
+        content: "";
+        width: 100%;
+        height: 10px;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        background-image: url(../imgs/dots.png);
+        background-repeat: repeat;
+        z-index: 1;     
+}
+.team-card-caption
+{
+        background-color: #5B5B5B;
+        color: white;
+        text-align: center;
+        overflow: hidden;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+}
+.team-card-overlay
+{
+        background-color: rgba(255,255,255,0.9);
+        height: 98%;
+        width: 98%;
+        transition:0.5s all;
+        scale: 0.5;
+        opacity: 0;
+}
+.team-card-overlay i
+{
+font-size: 25px;
+padding: 10px;
+background-color: black;
+color: white;
+border-radius: 50%;
+}
+.team-card-overlay i:hover
+{
+background-color: white;
+color: black;
+}
+.team-img img 
+{
+        transition: 0.5s;
+}
+.team-img:hover img
+{
+transform: scale(1.2);
+}
+.team-card:hover .team-card-overlay
+{
+ transform: rotateY(360deg);
+ scale: 1;
+ opacity: 1;
+}
+#contact
+{
+        padding: 70px;
+}
+
+#contact h1 
+{
+        position: relative;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+}
+#contact h1 span::after
+{
+        content: "";
+        width: 100%;
+        height: 10px;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        background-image: url(../imgs/dots.png);
+        background-repeat: repeat;
+        z-index: 1;     
+}
+#contact i 
+{
+        font-size: 25px;
+        padding: 20px;
+        color: black;
+        background-color: #F7F7F7;
+        border-radius: 50%; 
+}
+#contact .contact-icons
+{
+        width: 30%;
+}
+#contact i 
+{
+        transition: 0.5s all;
+}
+
+#contact .contact-icons:hover i
+{
+        background-color: black;
+        color: white; 
+}
+#contact input
+{
+        background-color: #F7F7F7;
+}
+.form-control:focus 
+{
+border-color:#F7F7F7;
+box-shadow: unset;
+}
+textarea
+{
+ padding-bottom: 100px;
+ background-color: #F7F7F7;
+ border-radius: 5px;
+ border-color: #F7F7F7;
+}
+footer
+{
+        background-color: black;
+}
+footer p 
+{
+color: rgb(116, 129, 130);
+}
+

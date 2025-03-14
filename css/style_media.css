@@ -1,0 +1,145 @@
+@media screen and (min-width: 0px) and (max-width:576px) 
+{
+.main-cont-2
+{
+    margin-top: 40px;
+}
+.carousel-item img 
+    {
+    width: 30%;
+    }
+    .icon-container-1
+    {
+        width: 100%;
+        display: unset !important;
+    }
+    .icon-container-2
+    {
+        width: 100%;
+        display: unset !important;
+    }
+    #contact .contact-icons
+    {
+            width: 100%;
+            margin: 5px auto;
+    }
+    .form-row
+    {
+        display: unset !important;
+        width: 100% !important;
+    }
+    .form-row input
+    {
+        margin-bottom: 10px;
+    }
+    .form-row button
+    {
+        width: 35% !important;
+    }
+}
+@media screen and (min-width: 576px) and (max-width:770px) 
+{
+    .main-cont-2
+    {
+        margin-top: 40px;
+    }
+    .carousel-item img 
+    {
+    width: 20%;
+    }
+    .icon-container-1
+    {
+        width: 100%;
+        display: unset !important;
+    }
+    .icon-container-2
+    {
+        width: 100%;
+        display: unset !important;
+    }
+    #contact .contact-icons
+    {
+            width: 30%;
+            margin: 5px auto;
+    }
+    .form-row
+    {
+        display: unset !important;
+        width: 100% !important;
+    }
+    .form-row input
+    {
+        margin-bottom: 10px;
+    }
+    .form-row button
+    {
+        width: 30% !important;
+    }
+    #contact .contact-icons
+    {
+            width: 100%;
+            margin: 5px auto;
+    }
+
+}
+@media screen and (min-width: 770px) and (max-width:994px) 
+{
+    .main-cont-2
+    {
+        margin-top: 40px;
+    }
+    .carousel-item img 
+    {
+    width: 15%;
+    }
+    .icon-container-1
+    {
+        width: 100%;
+        display: unset !important;
+    }
+    .icon-container-2
+    {
+        display: unset !important;
+        margin: 0px auto !important;
+    }
+    #contact .contact-icons
+{
+        width: 30%;
+        margin: 5px auto;
+}
+.form-row
+    {
+        display: unset !important;
+        width: 100% !important;
+    }
+    .form-row input
+    {
+        margin-bottom: 10px;
+    }
+    .form-row button
+    {
+        width: 20% !important;
+    }
+
+}
+@media screen and (min-width: 994px) and (max-width:1202px) 
+{
+    .carousel-item img 
+    {
+    width: 10%;
+    }
+}
+ @media screen and (min-width: 1202px) and (max-width:1402px)  
+{
+    .carousel-item img 
+    {
+    width: 10%;
+    }
+}
+@media screen and (min-width: 1402px)
+{
+    .carousel-item img 
+    {
+    width: 10%;
+    }
+}
